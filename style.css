@@ -1,0 +1,27 @@
+body{
+        margin: 0px;
+        padding:0px;
+        background: blue url("image.jpg") 0% 70%  no-repeat fixed;
+        background-size: 100% 400px;
+    }
+
+p{
+    background : rgba(255, 0, 0, 0.6);
+    color: #000;
+    direction:ltr;
+    letter-spacing:normal;
+    word-spacing:13px;
+    text-indent:20px;
+    text-align:center;
+    text-decoration: none;
+    margin: 70px;
+    border: 5px solid green;
+    padding: 60px;
+    width: 500;
+    height: 500;
+    border-radius: 40px 50x 40px 50px;
+    box-shadow: 0px 0px 50px black;
+    box-sizing: border-box;
+
+
+}
