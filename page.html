@@ -1,68 +1,84 @@
-<html>
-    <head>
-        <title>page</title>
-    </head>
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JAMB E-Facility - Login</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
 
-    <body>
+<body class="bg-white">
 
-    <ul>
-     <li><a href="index.html">Home</a></li>
-     <li><a href="page.html">Page</a></li>
-    </ul>
+  <ul class="bg-cyan-500 text-white">
+    <li><a href="index.html" class="hover:text-blue-600">Home</a></li>
+    <li><a href="page.html" class="hover:text-blue-600">Page</a></li>
+  </ul>
 
-    <section id="sec">
+  <section id="sec" class="bg-blue-900 text-white py-16 px-6 flex flex-col items-center text-center">
 
-      <p id="p2">CRYPTO FEATURE</p>
+    <p id="p2" class="text-blue-400 font-bold text-sm mb-3">CRYPTO FEATURE</p>
 
-        <h2>Best Features</h2>
+    <h2 class="text-4xl font-bold mb-4">Best Features</h2>
 
-        <p id="p3">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed
-            congue arcu, in dignissim quam condimentum vel.
-        </p>
+    <p id="p3" class="max-w-[600px] text-300 mb-12">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed
+      congue arcu, in dignissim quam condimentum vel.
+    </p>
 
-        <div id="mybox">
+    <div id="mybox" class="flex flex-col sm:flex-row sm:justify-center gap-4">
 
-            <div class="box">
-                <i class="fa-solid fa-house"> </i>
-                <h3>Safe & Secure</h3>
-                <p>Lorem ipsum dolor sit amet consectetur elit, sed do eiusmod tempor labore labore labore et dolor.</p>
-            </div>
-
-            <div class="box">
-                <i class="fa-solid fa-house"></i>
-                <h3>Early Bonus</h3>
-                <p>Lorem ipsum dolor sit amet consectetur elit, sed do eiusmod tempor labore labore labore et dolor.</p>
-            </div>
-
-            <div class="box">
-                <i class="fa-solid fa-house"></i>
-                <h3>Universal Access</h3>
-                <p>Lorem ipsum dolor sit amet consectetur elit, sed do eiusmod tempor labore labore labore et dolor.</p>
-            </div>
-
-            <div class="box">
-                <i class="fa-solid fa-house"></i>
-                <h3>Secure Storage</h3>
-                <p>Lorem ipsum dolor sit amet consectetur elit, sed do eiusmod tempor labore labore labore et dolor.</p>
-            </div>
-
-            <div class="box">
-                <i class="fa-solid fa-house"></i>
-                <h3>Low Cost</h3>
-                <p>Lorem ipsum dolor sit amet consectetur elit, sed do eiusmod tempor labore labore labore et dolor.</p>
-            </div>
-
-            <div class="box">
-                <i class="fa-solid fa-house"></i>
-                <h3>Several Profit</h3>
-                <p>Lorem ipsum dolor sit amet consectetur elit, sed do eiusmod tempor labore labore labore et dolor.</p>
-            </div>
-
+      <div class="box flex flex-col items-center text-center bg-red-800 p-8 hover:bg-blue-600">
+        <div class="w-16 h-16 rounded-full bg-red-800 flex items-center justify-center mb-4">
+          <i class="fa-solid fa-shield-halved text-2xl text-cyan-500"></i>
         </div>
-    </section>
-    
-    </body>
+        <h3 class="text-xl font-bold">Safe & Secure</h3>
+        <p class="text-gray-400 text-sm">Lorem ipsum dolor sit amet consectetur elit, sed do eiusmod tempor labore et dolor.</p>
+      </div>
+
+      <div class="box flex flex-col items-center text-center bg-red-800 p-8 hover:bg-blue-600">
+        <div class="w-16 h-16 rounded-full bg-red-800 flex items-center justify-center mb-4">
+          <i class="fa-solid fa-gift text-2xl text-cyan-500"></i>
+        </div>
+        <h3 class="text-xl font-bold">Early Bonus</h3>
+        <p class="text-gray-400">Lorem ipsum dolor sit amet consectetur elit, sed do eiusmod tempor labore et dolor.</p>
+      </div>
+
+      <div class="box flex flex-col items-center text-center bg-red-800 p-8 hover:bg-blue-600">
+        <div class="w-16 h-16 rounded-full bg-red-800 flex items-center justify-center mb-4">
+          <i class="fa-solid fa-globe text-2xl text-cyan-500"></i>
+        </div>
+        <h3 class="text-xl font-bold">Universal Access</h3>
+        <p class="text-gray-400">Lorem ipsum dolor sit amet consectetur elit, sed do eiusmod tempor labore et dolor.</p>
+      </div>
+
+      <div class="box flex flex-col items-center text-center bg-red-800 p-8 hover:bg-blue-600">
+        <div class="w-16 h-16 rounded-full bg-red-800 flex items-center justify-center mb-4">
+          <i class="fa-solid fa-vault text-2xl text-cyan-500"></i>
+        </div>
+        <h3 class="text-xl font-bold">Secure Storage</h3>
+        <p class="text-gray-400">Lorem ipsum dolor sit amet consectetur elit, sed do eiusmod tempor labore et dolor.</p>
+      </div>
+
+      <div class="box flex flex-col items-center text-center bg-red-800 p-8 hover:bg-blue-600">
+        <div class="w-16 h-16 rounded-full bg-red-800 flex items-center justify-center mb-4">
+          <i class="fa-solid fa-money-bill-wave text-2xl text-cyan-500"></i>
+        </div>
+        <h3 class="text-xl font-bold">Low Cost</h3>
+        <p class="text-gray-400">Lorem ipsum dolor sit amet consectetur elit, sed do eiusmod tempor labore et dolor.</p>
+      </div>
+
+      <div class="box flex flex-col items-center text-center bg-red-800 p-8 hover:bg-blue-600">
+        <div class="w-16 h-16 rounded-full bg-red-800 flex items-center justify-center mb-4">
+          <i class="fa-solid fa-chart-line text-2xl text-cyan-500"></i>
+        </div>
+        <h3 class="text-xl font-bold">Several Profit</h3>
+        <p class="text-gray-400 text-sm">Lorem ipsum dolor sit amet consectetur elit, sed do eiusmod tempor labore et dolor.</p>
+      </div>
+
+    </div>
+  </section>
+
+</body>
 </html>
