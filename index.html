@@ -100,15 +100,27 @@ form a {
     text-decoration: none;
 }
 
-/* Mobile fix - paste this at the bottom */
-@media (max-width: 600px) {
-  #my-box {
+@media (max-width: 768px) {
+  div#container {
+    flex-direction: column !important;
+    position: relative !important;
+  }
+
+  div.background-image {
+    position: absolute !important;
+    width: 100% !important;
+    height: 100% !important;
+    top: 0 !important;
+    left: 0 !important;
+  }
+
+  div#my-box {
     width: 90% !important;
-    margin-left: 5% !important;
-    margin-right: 5% !important;
+    margin: 20px auto !important;
+    margin-left: auto !important;
     margin-top: 20px !important;
     position: relative !important;
-    left: 0 !important;
+    z-index: 2 !important;
     padding: 20px !important;
     box-sizing: border-box !important;
   }
@@ -117,12 +129,7 @@ form a {
     width: 100% !important;
     box-sizing: border-box !important;
   }
-
-  form p {
-    line-height: 1.6;
-  }
 }
-
 </style>
 </head>
 
